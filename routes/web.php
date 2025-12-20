@@ -17,3 +17,7 @@ Route::get('/search', Search::class);
 Route::get('/save-post', SavePost::class);
 
 Route::get('/clock', Clock::class);
+
+Route::get('/posts', function () {
+    return view('posts');
+});
