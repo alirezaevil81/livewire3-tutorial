@@ -7,8 +7,8 @@
         <title>{{ $title ?? 'Page Title' }}</title>
         @vite('resources/css/app.css')
     </head>
-    <body>
+    <body class="bg-gradient-to-br from-gray-100 to-gray-200 min-h-screen">
         {{ $slot }}
-    @vite('resources/js/app.js')
+        @vite('resources/js/app.js')
     </body>
 </html>
