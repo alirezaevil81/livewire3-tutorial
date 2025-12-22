@@ -3,6 +3,7 @@
 use App\Livewire\AlpineIntegration;
 use App\Livewire\CartManager;
 use App\Livewire\Clock;
+use App\Livewire\ConfirmDemo;
 use App\Livewire\Counter;
 use App\Livewire\EditorDemo;
 use App\Livewire\IgnoreDemo;
@@ -64,3 +65,5 @@ Route::get('/cart', CartManager::class);
 Route::get('/js-effects', JsEffectsDemo::class);
 
 Route::get('/ignore-demo', IgnoreDemo::class);
+
+Route::get('/confirm-demo', ConfirmDemo::class);
