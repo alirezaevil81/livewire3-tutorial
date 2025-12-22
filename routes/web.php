@@ -51,3 +51,5 @@ Route::get('/product-modal', ProductModal::class);
 Route::get('/transitions', TransitionDemo::class);
 
 Route::get('/register', RegisterForm::class);
+
+Route::get('/cart', \App\Livewire\CartManager::class);
