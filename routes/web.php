@@ -4,6 +4,9 @@ use App\Livewire\AlpineIntegration;
 use App\Livewire\CartManager;
 use App\Livewire\Clock;
 use App\Livewire\Counter;
+use App\Livewire\EditorDemo;
+use App\Livewire\IgnoreDemo;
+use App\Livewire\JsEffectsDemo;
 use App\Livewire\LazyDashboard;
 use App\Livewire\OfflineDemo;
 use App\Livewire\ProductModal;
@@ -55,4 +58,6 @@ Route::get('/register', RegisterForm::class);
 
 Route::get('/cart', CartManager::class);
 
-Route::get('/js-effects', \App\Livewire\JsEffectsDemo::class);
+Route::get('/js-effects', JsEffectsDemo::class);
+
+Route::get('/ignore-demo', IgnoreDemo::class);
