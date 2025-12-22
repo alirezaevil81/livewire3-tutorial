@@ -6,6 +6,7 @@ use App\Livewire\Clock;
 use App\Livewire\Counter;
 use App\Livewire\EditorDemo;
 use App\Livewire\IgnoreDemo;
+use App\Livewire\InitDemo;
 use App\Livewire\JsEffectsDemo;
 use App\Livewire\LazyDashboard;
 use App\Livewire\OfflineDemo;
@@ -53,6 +54,8 @@ Route::get('/lazy-dashboard', LazyDashboard::class);
 Route::get('/product-modal', ProductModal::class);
 
 Route::get('/transitions', TransitionDemo::class);
+
+Route::get('/init-demo', InitDemo::class);
 
 Route::get('/register', RegisterForm::class);
 
