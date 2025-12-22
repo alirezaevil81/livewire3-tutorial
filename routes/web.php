@@ -1,6 +1,7 @@
 <?php
 
 use App\Livewire\AlpineIntegration;
+use App\Livewire\CartManager;
 use App\Livewire\Clock;
 use App\Livewire\Counter;
 use App\Livewire\LazyDashboard;
@@ -52,4 +53,6 @@ Route::get('/transitions', TransitionDemo::class);
 
 Route::get('/register', RegisterForm::class);
 
-Route::get('/cart', \App\Livewire\CartManager::class);
+Route::get('/cart', CartManager::class);
+
+Route::get('/js-effects', \App\Livewire\JsEffectsDemo::class);
