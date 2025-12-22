@@ -5,6 +5,7 @@ use App\Livewire\Clock;
 use App\Livewire\Counter;
 use App\Livewire\LazyDashboard;
 use App\Livewire\OfflineDemo;
+use App\Livewire\ProductModal;
 use App\Livewire\SavePost;
 use App\Livewire\Search;
 use App\Livewire\TodoList;
@@ -42,3 +43,5 @@ Route::get('/offline-demo', OfflineDemo::class);
 Route::get('/alpine-integration', AlpineIntegration::class);
 
 Route::get('/lazy-dashboard', LazyDashboard::class);
+
+Route::get('/product-modal', ProductModal::class);
