@@ -6,6 +6,7 @@ use App\Livewire\Counter;
 use App\Livewire\LazyDashboard;
 use App\Livewire\OfflineDemo;
 use App\Livewire\ProductModal;
+use App\Livewire\RegisterForm;
 use App\Livewire\SavePost;
 use App\Livewire\Search;
 use App\Livewire\TodoList;
@@ -48,3 +49,5 @@ Route::get('/lazy-dashboard', LazyDashboard::class);
 Route::get('/product-modal', ProductModal::class);
 
 Route::get('/transitions', TransitionDemo::class);
+
+Route::get('/register', RegisterForm::class);
