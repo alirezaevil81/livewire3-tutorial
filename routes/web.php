@@ -10,6 +10,7 @@ use App\Livewire\SavePost;
 use App\Livewire\Search;
 use App\Livewire\TodoList;
 use App\Livewire\TodoManager;
+use App\Livewire\TransitionDemo;
 use App\Livewire\UploadAvatar;
 use App\Livewire\UserList;
 use Illuminate\Support\Facades\Route;
@@ -45,3 +46,5 @@ Route::get('/alpine-integration', AlpineIntegration::class);
 Route::get('/lazy-dashboard', LazyDashboard::class);
 
 Route::get('/product-modal', ProductModal::class);
+
+Route::get('/transitions', TransitionDemo::class);
