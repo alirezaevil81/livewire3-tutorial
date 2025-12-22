@@ -6,6 +6,7 @@ use App\Livewire\SavePost;
 use App\Livewire\Search;
 use App\Livewire\TodoList;
 use App\Livewire\UploadAvatar;
+use App\Livewire\UserList;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -27,3 +28,5 @@ Route::get('/posts', function () {
 Route::get('/todos', TodoList::class);
 
 Route::get('/upload-avatar', UploadAvatar::class);
+
+Route::get('/users', UserList::class);
