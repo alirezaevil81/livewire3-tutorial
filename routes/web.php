@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\AlpineIntegration;
 use App\Livewire\Clock;
 use App\Livewire\Counter;
 use App\Livewire\OfflineDemo;
@@ -36,3 +37,5 @@ Route::get('/users', UserList::class);
 Route::get('/todos-nested', TodoManager::class);
 
 Route::get('/offline-demo', OfflineDemo::class);
+
+Route::get('/alpine-integration', AlpineIntegration::class);
