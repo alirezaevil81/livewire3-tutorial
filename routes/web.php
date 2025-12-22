@@ -2,6 +2,7 @@
 
 use App\Livewire\Clock;
 use App\Livewire\Counter;
+use App\Livewire\OfflineDemo;
 use App\Livewire\SavePost;
 use App\Livewire\Search;
 use App\Livewire\TodoList;
@@ -33,3 +34,5 @@ Route::get('/upload-avatar', UploadAvatar::class);
 Route::get('/users', UserList::class);
 
 Route::get('/todos-nested', TodoManager::class);
+
+Route::get('/offline-demo', OfflineDemo::class);
