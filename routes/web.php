@@ -20,6 +20,7 @@ use App\Livewire\RegisterForm;
 use App\Livewire\SavePost;
 use App\Livewire\Search;
 use App\Livewire\SubmitDemo;
+use App\Livewire\TargetDemo;
 use App\Livewire\TodoList;
 use App\Livewire\TodoManager;
 use App\Livewire\TransitionDemo;
@@ -84,3 +85,5 @@ Route::get('/prevent-demo', PreventDemo::class);
 Route::get('/submit-demo', SubmitDemo::class);
 
 Route::get('/key-demo', KeyDemo::class);
+
+Route::get('/target-demo', TargetDemo::class);
