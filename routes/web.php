@@ -34,6 +34,7 @@ use App\Livewire\{AlpineIntegration,
     SavePost,
     Search,
     SessionDemo,
+    ShowDemo,
     SkipRenderDemo,
     SnapshotDemo,
     StreamDemo,
@@ -155,3 +156,5 @@ Route::get('/session-demo', SessionDemo::class);
 Route::get('/skip-render-demo', SkipRenderDemo::class);
 
 Route::get('/replace-demo', ReplaceDemo::class);
+
+Route::get('/show-demo', ShowDemo::class);
