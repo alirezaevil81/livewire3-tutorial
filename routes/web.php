@@ -40,6 +40,7 @@ use App\Livewire\{AlpineIntegration,
     TodoManager,
     TransitionDemo,
     UploadAvatar,
+    UrlSyncDemo,
     UserList};
 use Illuminate\Support\Facades\Route;
 
@@ -140,3 +141,5 @@ Route::get('/loading-class-demo', LoadingClassDemo::class);
 Route::get('/once-demo', OnceDemo::class);
 
 Route::get('/debounce-demo', DebounceDemo::class);
+
+Route::get('/url-sync-demo', UrlSyncDemo::class);
