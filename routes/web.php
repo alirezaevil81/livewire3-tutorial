@@ -5,6 +5,7 @@ use App\Livewire\CartManager;
 use App\Livewire\Clock;
 use App\Livewire\ConfirmDemo;
 use App\Livewire\Counter;
+use App\Livewire\CurrentDemo;
 use App\Livewire\DirtyDemo;
 use App\Livewire\IgnoreDemo;
 use App\Livewire\InitDemo;
@@ -99,3 +100,5 @@ Route::get('/dirty-demo', DirtyDemo::class);
 Route::get('/snapshot-demo', SnapshotDemo::class);
 
 Route::get('/text-demo', TextDemo::class);
+
+Route::get('/current-demo', CurrentDemo::class);
