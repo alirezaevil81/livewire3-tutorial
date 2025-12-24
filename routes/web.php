@@ -21,6 +21,7 @@ use App\Livewire\{AlpineIntegration,
     NavigateDemo,
     NavigateHoverDemo,
     OfflineDemo,
+    OnceDemo,
     PollDemo,
     PreventDemo,
     ProductModal,
@@ -134,3 +135,5 @@ Route::get('/browser-dispatch-demo', BrowserDispatchDemo::class);
 Route::get('/blur-demo', BlurDemo::class);
 
 Route::get('/loading-class-demo', LoadingClassDemo::class);
+
+Route::get('/once-demo', OnceDemo::class);
