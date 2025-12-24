@@ -1,38 +1,39 @@
 <?php
 
-use App\Livewire\AlpineIntegration;
-use App\Livewire\CartManager;
-use App\Livewire\Clock;
-use App\Livewire\ConfirmDemo;
-use App\Livewire\Counter;
-use App\Livewire\CurrentDemo;
-use App\Livewire\DirtyDemo;
-use App\Livewire\IgnoreDemo;
-use App\Livewire\InitDemo;
-use App\Livewire\JsEffectsDemo;
-use App\Livewire\KeyDemo;
-use App\Livewire\LazyDashboard;
-use App\Livewire\LoadingDemo;
-use App\Livewire\NavigateDemo;
-use App\Livewire\NavigateHoverDemo;
-use App\Livewire\OfflineDemo;
-use App\Livewire\PollDemo;
-use App\Livewire\PreventDemo;
-use App\Livewire\ProductModal;
-use App\Livewire\RedirectDemo;
-use App\Livewire\RegisterForm;
-use App\Livewire\SavePost;
-use App\Livewire\Search;
-use App\Livewire\SnapshotDemo;
-use App\Livewire\StreamDemo;
-use App\Livewire\SubmitDemo;
-use App\Livewire\TargetDemo;
-use App\Livewire\TextDemo;
-use App\Livewire\TodoList;
-use App\Livewire\TodoManager;
-use App\Livewire\TransitionDemo;
-use App\Livewire\UploadAvatar;
-use App\Livewire\UserList;
+use App\Livewire\{AlpineIntegration,
+    CartManager,
+    Clock,
+    ConfirmDemo,
+    Counter,
+    CurrentDemo,
+    DirtyDemo,
+    IgnoreDemo,
+    InitDemo,
+    JsEffectsDemo,
+    KeyDemo,
+    LazyDashboard,
+    LoadingDemo,
+    NavigateDemo,
+    NavigateHoverDemo,
+    OfflineDemo,
+    PollDemo,
+    PreventDemo,
+    ProductModal,
+    RedirectDemo,
+    RegisterForm,
+    ResetDemo,
+    SavePost,
+    Search,
+    SnapshotDemo,
+    StreamDemo,
+    SubmitDemo,
+    TargetDemo,
+    TextDemo,
+    TodoList,
+    TodoManager,
+    TransitionDemo,
+    UploadAvatar,
+    UserList};
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -116,3 +117,5 @@ Route::get('/dashboard-demo', function () {
 Route::get('/profile', function () {
     return '<h1 class="text-center text-5xl mt-20">این صفحه پروفایل است</h1>';
 })->name('profile');
+
+Route::get('/reset-demo', ResetDemo::class);
