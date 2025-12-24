@@ -5,6 +5,7 @@ use App\Livewire\CartManager;
 use App\Livewire\Clock;
 use App\Livewire\ConfirmDemo;
 use App\Livewire\Counter;
+use App\Livewire\DirtyDemo;
 use App\Livewire\IgnoreDemo;
 use App\Livewire\InitDemo;
 use App\Livewire\JsEffectsDemo;
@@ -20,6 +21,7 @@ use App\Livewire\ProductModal;
 use App\Livewire\RegisterForm;
 use App\Livewire\SavePost;
 use App\Livewire\Search;
+use App\Livewire\SnapshotDemo;
 use App\Livewire\SubmitDemo;
 use App\Livewire\TargetDemo;
 use App\Livewire\TodoList;
@@ -90,3 +92,7 @@ Route::get('/key-demo', KeyDemo::class);
 Route::get('/target-demo', TargetDemo::class);
 
 Route::get('/navigate-hover-demo', NavigateHoverDemo::class);
+
+Route::get('/dirty-demo', DirtyDemo::class);
+
+Route::get('/snapshot-demo', SnapshotDemo::class);
