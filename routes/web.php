@@ -12,6 +12,7 @@ use App\Livewire\KeyDemo;
 use App\Livewire\LazyDashboard;
 use App\Livewire\LoadingDemo;
 use App\Livewire\NavigateDemo;
+use App\Livewire\NavigateHoverDemo;
 use App\Livewire\OfflineDemo;
 use App\Livewire\PollDemo;
 use App\Livewire\PreventDemo;
@@ -87,3 +88,5 @@ Route::get('/submit-demo', SubmitDemo::class);
 Route::get('/key-demo', KeyDemo::class);
 
 Route::get('/target-demo', TargetDemo::class);
+
+Route::get('/navigate-hover-demo', NavigateHoverDemo::class);
