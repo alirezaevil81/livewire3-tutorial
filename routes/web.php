@@ -18,6 +18,7 @@ use App\Livewire\ProductModal;
 use App\Livewire\RegisterForm;
 use App\Livewire\SavePost;
 use App\Livewire\Search;
+use App\Livewire\SubmitDemo;
 use App\Livewire\TodoList;
 use App\Livewire\TodoManager;
 use App\Livewire\TransitionDemo;
@@ -78,3 +79,5 @@ Route::get('/loading-demo', LoadingDemo::class);
 Route::get('/navigate-demo', NavigateDemo::class);
 
 Route::get('/prevent-demo', PreventDemo::class);
+
+Route::get('/submit-demo', SubmitDemo::class);
