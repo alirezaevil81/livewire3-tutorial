@@ -24,6 +24,7 @@ use App\Livewire\Search;
 use App\Livewire\SnapshotDemo;
 use App\Livewire\SubmitDemo;
 use App\Livewire\TargetDemo;
+use App\Livewire\TextDemo;
 use App\Livewire\TodoList;
 use App\Livewire\TodoManager;
 use App\Livewire\TransitionDemo;
@@ -96,3 +97,5 @@ Route::get('/navigate-hover-demo', NavigateHoverDemo::class);
 Route::get('/dirty-demo', DirtyDemo::class);
 
 Route::get('/snapshot-demo', SnapshotDemo::class);
+
+Route::get('/text-demo', TextDemo::class);
