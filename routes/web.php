@@ -32,6 +32,7 @@ use App\Livewire\{AlpineIntegration,
     ResetDemo,
     SavePost,
     Search,
+    SessionDemo,
     SnapshotDemo,
     StreamDemo,
     SubmitDemo,
@@ -146,3 +147,5 @@ Route::get('/debounce-demo', DebounceDemo::class);
 Route::get('/url-sync-demo', UrlSyncDemo::class);
 
 Route::get('/locked-demo', LockedDemo::class);
+
+Route::get('/session-demo', SessionDemo::class);
