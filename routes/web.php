@@ -19,6 +19,7 @@ use App\Livewire\OfflineDemo;
 use App\Livewire\PollDemo;
 use App\Livewire\PreventDemo;
 use App\Livewire\ProductModal;
+use App\Livewire\RedirectDemo;
 use App\Livewire\RegisterForm;
 use App\Livewire\SavePost;
 use App\Livewire\Search;
@@ -105,3 +106,13 @@ Route::get('/text-demo', TextDemo::class);
 Route::get('/current-demo', CurrentDemo::class);
 
 Route::get('/stream-demo', StreamDemo::class);
+
+Route::get('/redirect-demo', RedirectDemo::class);
+
+Route::get('/dashboard-demo', function () {
+    return '<h1 class="text-center text-5xl mt-20">خوش آمدید به داشبورد!</h1>';
+});
+
+Route::get('/profile', function () {
+    return '<h1 class="text-center text-5xl mt-20">این صفحه پروفایل است</h1>';
+})->name('profile');
