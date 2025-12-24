@@ -8,6 +8,7 @@ use App\Livewire\Counter;
 use App\Livewire\IgnoreDemo;
 use App\Livewire\InitDemo;
 use App\Livewire\JsEffectsDemo;
+use App\Livewire\KeyDemo;
 use App\Livewire\LazyDashboard;
 use App\Livewire\LoadingDemo;
 use App\Livewire\NavigateDemo;
@@ -81,3 +82,5 @@ Route::get('/navigate-demo', NavigateDemo::class);
 Route::get('/prevent-demo', PreventDemo::class);
 
 Route::get('/submit-demo', SubmitDemo::class);
+
+Route::get('/key-demo', KeyDemo::class);
