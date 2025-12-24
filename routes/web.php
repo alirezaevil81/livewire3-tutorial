@@ -8,6 +8,7 @@ use App\Livewire\{AlpineIntegration,
     ConfirmDemo,
     Counter,
     CurrentDemo,
+    DebounceDemo,
     DirtyDemo,
     IgnoreDemo,
     InitDemo,
@@ -137,3 +138,5 @@ Route::get('/blur-demo', BlurDemo::class);
 Route::get('/loading-class-demo', LoadingClassDemo::class);
 
 Route::get('/once-demo', OnceDemo::class);
+
+Route::get('/debounce-demo', DebounceDemo::class);
