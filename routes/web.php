@@ -9,6 +9,7 @@ use App\Livewire\{AlpineIntegration,
     DirtyDemo,
     IgnoreDemo,
     InitDemo,
+    JsDemo,
     JsEffectsDemo,
     KeyDemo,
     KeydownDemo,
@@ -122,3 +123,5 @@ Route::get('/profile', function () {
 Route::get('/reset-demo', ResetDemo::class);
 
 Route::get('/keydown-demo', KeydownDemo::class);
+
+Route::get('/js-demo', JsDemo::class);
