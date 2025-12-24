@@ -11,6 +11,7 @@ use App\Livewire\{AlpineIntegration,
     InitDemo,
     JsEffectsDemo,
     KeyDemo,
+    KeydownDemo,
     LazyDashboard,
     LoadingDemo,
     NavigateDemo,
@@ -119,3 +120,5 @@ Route::get('/profile', function () {
 })->name('profile');
 
 Route::get('/reset-demo', ResetDemo::class);
+
+Route::get('/keydown-demo', KeydownDemo::class);
