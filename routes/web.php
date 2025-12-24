@@ -10,6 +10,7 @@ use App\Livewire\IgnoreDemo;
 use App\Livewire\InitDemo;
 use App\Livewire\JsEffectsDemo;
 use App\Livewire\LazyDashboard;
+use App\Livewire\LoadingDemo;
 use App\Livewire\OfflineDemo;
 use App\Livewire\PollDemo;
 use App\Livewire\ProductModal;
@@ -70,3 +71,5 @@ Route::get('/ignore-demo', IgnoreDemo::class);
 Route::get('/confirm-demo', ConfirmDemo::class);
 
 Route::get('/poll-demo', PollDemo::class);
+
+Route::get('/loading-demo', LoadingDemo::class);
