@@ -29,6 +29,7 @@ use App\Livewire\{AlpineIntegration,
     ProductModal,
     RedirectDemo,
     RegisterForm,
+    ReplaceDemo,
     ResetDemo,
     SavePost,
     Search,
@@ -152,3 +153,5 @@ Route::get('/locked-demo', LockedDemo::class);
 Route::get('/session-demo', SessionDemo::class);
 
 Route::get('/skip-render-demo', SkipRenderDemo::class);
+
+Route::get('/replace-demo', ReplaceDemo::class);
