@@ -23,6 +23,7 @@ use App\Livewire\RegisterForm;
 use App\Livewire\SavePost;
 use App\Livewire\Search;
 use App\Livewire\SnapshotDemo;
+use App\Livewire\StreamDemo;
 use App\Livewire\SubmitDemo;
 use App\Livewire\TargetDemo;
 use App\Livewire\TextDemo;
@@ -102,3 +103,5 @@ Route::get('/snapshot-demo', SnapshotDemo::class);
 Route::get('/text-demo', TextDemo::class);
 
 Route::get('/current-demo', CurrentDemo::class);
+
+Route::get('/stream-demo', StreamDemo::class);
