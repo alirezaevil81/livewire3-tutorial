@@ -19,6 +19,7 @@ use App\Livewire\{AlpineIntegration,
     LazyDashboard,
     LoadingClassDemo,
     LoadingDemo,
+    LockedDemo,
     NavigateDemo,
     NavigateHoverDemo,
     OfflineDemo,
@@ -143,3 +144,5 @@ Route::get('/once-demo', OnceDemo::class);
 Route::get('/debounce-demo', DebounceDemo::class);
 
 Route::get('/url-sync-demo', UrlSyncDemo::class);
+
+Route::get('/locked-demo', LockedDemo::class);
