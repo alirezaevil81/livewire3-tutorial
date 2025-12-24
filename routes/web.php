@@ -13,6 +13,7 @@ use App\Livewire\LoadingDemo;
 use App\Livewire\NavigateDemo;
 use App\Livewire\OfflineDemo;
 use App\Livewire\PollDemo;
+use App\Livewire\PreventDemo;
 use App\Livewire\ProductModal;
 use App\Livewire\RegisterForm;
 use App\Livewire\SavePost;
@@ -75,3 +76,5 @@ Route::get('/poll-demo', PollDemo::class);
 Route::get('/loading-demo', LoadingDemo::class);
 
 Route::get('/navigate-demo', NavigateDemo::class);
+
+Route::get('/prevent-demo', PreventDemo::class);
