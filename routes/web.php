@@ -1,6 +1,7 @@
 <?php
 
 use App\Livewire\{AlpineIntegration,
+    BlurDemo,
     BrowserDispatchDemo,
     CartManager,
     Clock,
@@ -128,3 +129,5 @@ Route::get('/keydown-demo', KeydownDemo::class);
 Route::get('/js-demo', JsDemo::class);
 
 Route::get('/browser-dispatch-demo', BrowserDispatchDemo::class);
+
+Route::get('/blur-demo', BlurDemo::class);
