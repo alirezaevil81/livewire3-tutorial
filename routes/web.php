@@ -11,11 +11,13 @@ use App\Livewire\{AlpineIntegration,
     DirtyDemo,
     IgnoreDemo,
     InitDemo,
+    IntersectDemo,
     JsDemo,
     JsEffectsDemo,
     KeyDemo,
     KeydownDemo,
     LazyDashboard,
+    LoadingClassDemo,
     LoadingDemo,
     NavigateDemo,
     NavigateHoverDemo,
@@ -131,3 +133,5 @@ Route::get('/js-demo', JsDemo::class);
 Route::get('/browser-dispatch-demo', BrowserDispatchDemo::class);
 
 Route::get('/blur-demo', BlurDemo::class);
+
+Route::get('/loading-class-demo', LoadingClassDemo::class);
