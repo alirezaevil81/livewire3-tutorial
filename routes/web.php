@@ -5,12 +5,12 @@ use App\Livewire\CartManager;
 use App\Livewire\Clock;
 use App\Livewire\ConfirmDemo;
 use App\Livewire\Counter;
-use App\Livewire\EditorDemo;
 use App\Livewire\IgnoreDemo;
 use App\Livewire\InitDemo;
 use App\Livewire\JsEffectsDemo;
 use App\Livewire\LazyDashboard;
 use App\Livewire\LoadingDemo;
+use App\Livewire\NavigateDemo;
 use App\Livewire\OfflineDemo;
 use App\Livewire\PollDemo;
 use App\Livewire\ProductModal;
@@ -73,3 +73,5 @@ Route::get('/confirm-demo', ConfirmDemo::class);
 Route::get('/poll-demo', PollDemo::class);
 
 Route::get('/loading-demo', LoadingDemo::class);
+
+Route::get('/navigate-demo', NavigateDemo::class);
