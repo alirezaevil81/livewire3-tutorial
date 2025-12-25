@@ -10,6 +10,7 @@ use App\Livewire\{AlpineIntegration,
     CurrentDemo,
     DebounceDemo,
     DirtyDemo,
+    DownloadDemo,
     IgnoreDemo,
     InitDemo,
     JsDemo,
@@ -161,3 +162,5 @@ Route::get('/replace-demo', ReplaceDemo::class);
 Route::get('/show-demo', ShowDemo::class);
 
 Route::get('/loading-remove-delay-demo', LoadingRemoveDelayDemo::class);
+
+Route::get('/download-demo', DownloadDemo::class);
