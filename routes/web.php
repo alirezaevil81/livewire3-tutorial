@@ -170,3 +170,7 @@ Route::get('/download-demo', DownloadDemo::class);
 Route::get('/double-click-demo', DoubleClickDemo::class);
 
 Route::get('/realtime-chat', RealtimeChat::class);
+
+Route::get('/volt-counter', function () {
+    return view('livewire.counter-volt');
+});
