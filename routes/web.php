@@ -30,6 +30,7 @@ use App\Livewire\{AlpineIntegration,
     PollDemo,
     PreventDemo,
     ProductModal,
+    RealtimeChat,
     RedirectDemo,
     RegisterForm,
     ReplaceDemo,
@@ -167,3 +168,5 @@ Route::get('/loading-remove-delay-demo', LoadingRemoveDelayDemo::class);
 Route::get('/download-demo', DownloadDemo::class);
 
 Route::get('/double-click-demo', DoubleClickDemo::class);
+
+Route::get('/realtime-chat', RealtimeChat::class);
