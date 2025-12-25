@@ -19,6 +19,7 @@ use App\Livewire\{AlpineIntegration,
     LazyDashboard,
     LoadingClassDemo,
     LoadingDemo,
+    LoadingRemoveDelayDemo,
     LockedDemo,
     NavigateDemo,
     NavigateHoverDemo,
@@ -158,3 +159,5 @@ Route::get('/skip-render-demo', SkipRenderDemo::class);
 Route::get('/replace-demo', ReplaceDemo::class);
 
 Route::get('/show-demo', ShowDemo::class);
+
+Route::get('/loading-remove-delay-demo', LoadingRemoveDelayDemo::class);
